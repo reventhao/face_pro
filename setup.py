@@ -19,15 +19,15 @@ setup(
     long_description="Provide Base64 transcoding,Picture zoom,Face comparison,and real-time comparison",
     license="MIT Licence",
 
-    url="https://github.com/reventhao/face_recognition_util",
+    url="https://github.com/reventhao/face_pro/tree/master/face_pro",
     author="reventhao",
     author_email="ren895873@gmail.com",
 
     packages=[
-        'face_recognition_util',
+        'face_pro',
     ],
-    package_dir={'face_recognition_util': 'face_recognition_util'},
+    package_dir={'face_pro': 'face_pro'},
     include_package_data=True,
     platforms="any",
-    install_requires=["numpy", "dlib", "gevent", "flask", "opencv-python", "face_recognition", "Pillow"]
+    install_requires=["numpy", "dlib", "opencv-python", "Pillow"]
 )
